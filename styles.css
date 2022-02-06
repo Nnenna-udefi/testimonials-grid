@@ -5,15 +5,21 @@
     margin: 0;
     padding: 0;
 }
+body, h1, p {
+    margin: 0;
+}
 body{
     margin: 0 auto;
     padding: 3rem 1rem;
-    background-color: hsl(0, 0%, 90%);
+    background-color: hsl(210, 46%, 95%);
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    min-height: 100hv;
+    height: 100hv;
 }
 p{
-    line-height: 1.9rem;
+    line-height: 1.6rem;
+    font-weight: 500;
 }
  section{
      border-radius: 20px;
@@ -41,7 +47,7 @@ p{
  }
  .badges3, .badges5{
     background-color: hsl(0, 0%, 100%);
-    color: hsl(217, 19%, 35%);
+    color: hsl(219, 29%, 14%);
 }
 .badges4{
     background-color: hsl(219, 29%, 14%);
@@ -60,10 +66,13 @@ h1{
      object-fit: cover;
  }
  .badges3 h1, .badges5 h1{
-    color: hsl(217, 19%, 35%);
+    color: hsl(219, 29%, 14%);
  }
- .badges3 p, .badges5 p{
-    color: hsl(0, 0%, 30%);
+ .badges3 .story, .badges5 .story{
+    color: hsl(0, 0%, 50%);
+ }
+ .badges3 .profile p, .badges5 .profile p{
+    color: hsl(0, 0%, 50%);
  }
 
  .profile{
@@ -77,8 +86,8 @@ h1{
  }
  .review{
     font-weight: 600;
-    padding: 1rem 0;
-    font-size: 1.5rem;
+    padding: 1.2rem 0;
+    font-size: 1.2rem;
  }
  .story{
      color:hsla(0, 0%, 100%, 70%);
@@ -90,14 +99,14 @@ h1{
 .attribution a { 
     color: hsl(228, 45%, 44%);
  }
- @media screen and (min-width:800px) and (max-width: 1000px){
-    .container{
-        margin: 0;
-    }
- }
- @media screen and (min-width:800px){
+
+ @media screen and (min-width:900px){
      body{
-        padding:0;
+        padding: 6rem 0;
+     }
+     .section{
+         padding: 0;
+         margin: 0;
      }
      
      .container {
@@ -106,7 +115,7 @@ h1{
         padding: 1.2rem;
         grid-template-areas: "first first second fifth"
                             "third fourth fourth fifth";
-        grid-gap: 20px;
+        grid-column-gap: 1.9rem;
     }
     .badges1{
         grid-area: first;
