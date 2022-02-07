@@ -18,7 +18,7 @@ body{
     height: 100hv;
 }
 p{
-    line-height: 1.6rem;
+    line-height: 1.4rem;
     font-weight: 500;
 }
  section{
@@ -87,7 +87,7 @@ h1{
  .review{
     font-weight: 600;
     padding: 1.2rem 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
  }
  .story{
      color:hsla(0, 0%, 100%, 70%);
@@ -158,6 +158,6 @@ h1{
  }
  @media (min-width: 1400px) {
     body {
-        padding: 8rem 0 0 0;
+        padding: 8rem 2rem 2rem 2rem;
     }
 }
