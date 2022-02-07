@@ -22,7 +22,7 @@ p{
     font-weight: 500;
 }
  section{
-     border-radius: 20px;
+     border-radius: 15px;
      padding: 2rem;
      width: 100%;
      margin: 2rem 0;
@@ -57,7 +57,7 @@ p{
     border: 3px solid hsl(263, 55%, 52%);
 }
 h1{
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: hsl(210, 46%, 95%);
 }
  img{
@@ -102,7 +102,7 @@ h1{
 
  @media screen and (min-width:900px){
      body{
-        padding: 3rem;
+        padding: 3rem 0;
      }
      section{
          margin: 0;
